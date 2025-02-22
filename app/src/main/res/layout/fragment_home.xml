@@ -8,13 +8,7 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="350dp"
-        android:layout_marginLeft="50dp"
-        android:src="@drawable/shirt1" />
+
 
     <!--<TextView
         android:layout_width="match_parent"
@@ -42,12 +36,36 @@
         />
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="258dp"
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/shirt1" />
 
-        android:src="@drawable/banner"
-        android:layout_marginTop="35dp"/>
+    <TextView
+        android:id="@+id/shirt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เสื้อกันหนาวมีฮู้ดสีดำ"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="38dp"
+        android:background="@drawable/rounded_border"
+        />
+    <!-- android:layout_marginTop="350dp"
+     android:layout_marginLeft="220dp"-->
+    <TextView
+        android:id="@+id/shirtnum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="199฿ ลดเหลือ 59฿"
+        android:textStyle="bold"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="51dp"
+        />
+
+
 
     <ImageView
         android:id="@+id/imageView4"
@@ -57,6 +75,28 @@
         android:layout_marginLeft="250dp"
         android:src="@drawable/shirt2" />
 
+    <TextView
+        android:id="@+id/shirt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เสื้อกันหนาวมีฮู้ดสีขาว"
+        android:textStyle="bold"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/rounded_border"
+        />
+    <!-- android:layout_marginTop="350dp"
+     android:layout_marginLeft="220dp"-->
+    <TextView
+        android:id="@+id/shirtnum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="149฿ ลดเหลือ 49฿"
+        android:textStyle="bold"
+        android:layout_marginTop="525dp"
+        android:layout_marginLeft="250dp"
+        />
+
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="120dp"
@@ -64,6 +104,16 @@
         android:layout_marginTop="560dp"
         android:layout_marginLeft="50dp"
         android:src="@drawable/sport1" />
+    <TextView
+        android:id="@+id/sport1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="สายรัดข้อมือกีฬา PLAER "
+        android:textStyle="bold"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/rounded_border"
+        />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -72,5 +122,15 @@
         android:layout_marginTop="560dp"
         android:layout_marginLeft="250dp"
         android:src="@drawable/sport2" />
+    <TextView
+        android:id="@+id/sport2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="แร็กเก็ต Pickleball "
+        android:textStyle="bold"
+        android:layout_marginTop="690dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/rounded_border"
+        />
 
 </FrameLayout>
