@@ -16,10 +16,10 @@
         android:layout_marginLeft="50dp"
         android:src="@drawable/shirt1" />
 
-    <TextView
+    <!--<TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Home Fragement" />
+        android:text="Home Fragement" />-->
 
     <ImageView
         android:id="@+id/imageView"
@@ -27,6 +27,19 @@
         android:layout_height="278dp"
         android:paddingTop="20dp"
         android:src="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Recommended"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+
+        android:background="@android:color/holo_orange_light"
+        android:padding="8dp"
+        />
 
     <ImageView
         android:id="@+id/imageView2"
