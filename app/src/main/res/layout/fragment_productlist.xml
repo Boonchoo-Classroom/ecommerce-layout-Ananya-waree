@@ -29,23 +29,59 @@
         android:background="@android:color/holo_orange_light"
         android:paddingLeft="26dp"
         />
-
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="350dp"
+        android:id="@+id/sport3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="120dp"
         android:layout_marginLeft="50dp"
-        android:src="@drawable/shirt1" />
+        android:src="@drawable/sport3" />
+
+    <TextView
+        android:id="@+id/textsport3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="อุปกรณ์กีฬา"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="70dp"
+        android:background="@drawable/rounded_border"
+        />
+    <ImageView
+        android:id="@+id/imageViewpen3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/pen2" />
 
     <TextView
         android:id="@+id/shirt1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="เสื้อกันหนาวมีฮู้ดสีดำ"
+        android:text="อุปกรณ์เครื่องเขียน"
         android:textStyle="bold"
-        android:layout_marginTop="480dp"
-        android:layout_marginLeft="38dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="250dp"
+        android:background="@drawable/rounded_border"
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/shirt3" />
+
+    <TextView
+        android:id="@+id/shirt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="แฟชั่นและเครื่องประดับ"
+        android:textStyle="bold"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="28dp"
         android:background="@drawable/rounded_border"
         />
     <!-- android:layout_marginTop="350dp"
@@ -56,19 +92,19 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="350dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="320dp"
         android:layout_marginLeft="250dp"
-        android:src="@drawable/shirt2" />
+        android:src="@drawable/elelectric1" />
 
     <TextView
         android:id="@+id/shirt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="เสื้อกันหนาวมีฮู้ดสีขาว"
+        android:text="อุปกรณ์เครื่องใช้ไฟฟ้า"
         android:textStyle="bold"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="450dp"
         android:layout_marginLeft="230dp"
         android:background="@drawable/rounded_border"
         />
@@ -77,36 +113,36 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="560dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="520dp"
         android:layout_marginLeft="50dp"
-        android:src="@drawable/sport1" />
+        android:src="@drawable/pexels_barthy_185030" />
     <TextView
         android:id="@+id/sport1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="สายรัดข้อมือกีฬา PLAER "
+        android:text="อุปกรณ์เสริมอิเล็กทรอนิกส์"
         android:textStyle="bold"
-        android:layout_marginTop="690dp"
+        android:layout_marginTop="650dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/rounded_border"
         />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_marginTop="560dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="520dp"
         android:layout_marginLeft="250dp"
-        android:src="@drawable/sport2" />
+        android:src="@drawable/phone" />
     <TextView
         android:id="@+id/sport2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="แร็กเก็ต Pickleball "
+        android:text="อุปกรณ์อิเล็กทรอนิกส์"
         android:textStyle="bold"
-        android:layout_marginTop="690dp"
+        android:layout_marginTop="650dp"
         android:layout_marginLeft="240dp"
         android:background="@drawable/rounded_border"
         />
