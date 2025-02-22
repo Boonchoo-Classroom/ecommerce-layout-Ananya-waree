@@ -8,6 +8,14 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/shirt1" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -20,5 +28,36 @@
         android:paddingTop="20dp"
         android:src="@drawable/banner" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="258dp"
+
+        android:src="@drawable/banner"
+        android:layout_marginTop="35dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/shirt2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/sport1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginLeft="250dp"
+        android:src="@drawable/sport2" />
 
 </FrameLayout>
